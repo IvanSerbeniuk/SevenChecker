@@ -15,9 +15,11 @@ Lets find out...
 
 ```
 
+# **It is actively maintained and updated daily to improve functionality and code quality**
 
 ## Overview
 The `isitnumberseven` function is a meticulously crafted Python function that determines whether a given number is the illustrious **7** or just another impostor. Built with clarity and precision, it evaluates an input number and returns a string verdict, celebrating the discovery of 7 or gently dismissing all others. This function is part of the **SevenChecker** project, a whimsical yet functional tool designed to highlight the uniqueness of the number 7 in a sea of integers.
+
 
 ### Why Seven?
 The number 7 holds a special place in human culture—lucky in games, mystical in folklore, and revered in countless traditions. `isitnumberseven` captures this fascination by making 7 the star of the show, giving it the spotlight it deserves while relegating other numbers to the sidelines.
@@ -129,12 +131,6 @@ While `isitnumberseven` is simple, it’s part of the broader **SevenChecker** e
   python3 sevencheck.py --number 7
   ```
 
-## Troubleshooting
-- **Script Not Found**: Ensure `sevencheck.py` is in the correct path (`/home/ivan/VScodeProjects/SevenChecker/`).
-- **No Output**: If called from `daily_runner.sh`, check the log file (`/home/ivan/daily_runner.log`) for errors. Verify Python is installed and accessible (`python3 --version`).
-- **Keyd Trigger Fails**: If using `keyd`, ensure the macro path is correct and the script is executable (`chmod +x check_seven.sh`).
-- **Autostart Issues**: Confirm the `.desktop` file is in `~/.config/autostart/` and GNOME is configured to run autostart scripts.
-
 ## Community and Contributions
 The **SevenChecker** project is a playful exploration of number-checking, but it’s open to contributions! Want to add support for other lucky numbers? Create a GUI? Integrate with a web app? Fork the project at `/home/ivan/VScodeProjects/SevenChecker/` (or wherever you store it) and share your ideas.
 
@@ -144,3 +140,10 @@ The **SevenChecker** project is a playful exploration of number-checking, but it
 
 ## Conclusion
 `isitnumberseven` is more than a function—it’s a celebration of the number 7’s mystique. Whether you’re running it daily via `daily_runner.sh`, triggering it with `Shift + Space` via `keyd`, or just playing around in a Python shell, this function brings joy to the mundane task of number comparison. Dive in, check for 7, and let the world know when you find it!
+### Gratitude
+I would like to thank my support team who helped with the development of this project. 
+
+In particular:
+- Maxim for moral support
+- Rostik
+- Eminem for the tracks
