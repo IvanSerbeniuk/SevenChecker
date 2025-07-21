@@ -4,7 +4,7 @@
 REPO_DIR="/home/ivan/VScodeProjects/SevenChecker"
 
 # ▶︎ На какую ветку пушить
-BRANCH="main"
+BRANCH="master"
 
 cd "$REPO_DIR" || { echo "❌ Cannot cd to $REPO_DIR"; exit 1; }
 
