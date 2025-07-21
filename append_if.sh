@@ -11,5 +11,5 @@ cat <<EOF >>"$TARGET_FILE"
     elif(num == $next_num):
         return 'This is not number 7'
 EOF
-
+ 
 echo "Added num = $next_num in $TARGET_FILE"
