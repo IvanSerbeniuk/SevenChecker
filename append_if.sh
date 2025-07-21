@@ -1,4 +1,4 @@
-TARGET_FILE="seven_check.py"
+TARGET_FILE="~/VScodeProjects/SevenChecker/seven_check.py"
 
 last_num=7
 
