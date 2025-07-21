@@ -1,42 +1,27 @@
 # SevenChecker Documentation
 
+
+```
+Is it Seven?
+Lets find out...
+ ________
+       __|
+      |
+     |
+    |
+   |
+  |
+
+
+```
+
+
 ## Overview
 The `isitnumberseven` function is a meticulously crafted Python function that determines whether a given number is the illustrious **7** or just another impostor. Built with clarity and precision, it evaluates an input number and returns a string verdict, celebrating the discovery of 7 or gently dismissing all others. This function is part of the **SevenChecker** project, a whimsical yet functional tool designed to highlight the uniqueness of the number 7 in a sea of integers.
 
 ### Why Seven?
 The number 7 holds a special place in human culture—lucky in games, mystical in folklore, and revered in countless traditions. `isitnumberseven` captures this fascination by making 7 the star of the show, giving it the spotlight it deserves while relegating other numbers to the sidelines.
 
-## Function Definition
-
-```python
-def isitnumberseven(num):
-    if (num == 1):
-        return 'This is not number 7'
-    elif (num == 2):    
-        return 'This is not number 7'
-    elif (num == 3):    
-        return 'This is not number 7'
-    elif (num == 4):    
-        return 'This is not number 7'
-    elif (num == 5):    
-        return 'This is not number 7'
-    elif (num == 6):    
-        return 'This is not number 7'
-    elif (num == 7):     # This is the number we are checking for
-        return 'This is number 7!'
-    elif(num == 8):
-        return 'This is not number 7'
-    elif(num == 9):
-        return 'This is not number 7'
-    elif(num == 10):
-        return 'This is not number 7'
-    elif(num == 11):
-        return 'This is not number 7'
-    elif(num == 12):
-        return 'This is not number 7'
-    elif(num == 13):
-        return 'This is not number 7'
-```
 
 ### Parameters
 - **num** (integer): The input number to be evaluated. The function checks if this number matches the coveted 7.
