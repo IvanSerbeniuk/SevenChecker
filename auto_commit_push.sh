@@ -18,7 +18,7 @@ if git diff-index --quiet HEAD; then
 fi
 
 # Создаём коммит с отметкой времени
-git commit -m "Automated commit: $(date '+%Y-%m-%d %H:%M:%S')"
+git commit -m "New step in sevenchecker functionality : $(date '+%Y-%m-%d')"
 
 # Отправляем на удалённый репозиторий
 git push origin "$BRANCH"
