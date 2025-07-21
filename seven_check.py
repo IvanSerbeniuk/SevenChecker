@@ -1,0 +1,24 @@
+def isitnumberseven(num):
+    if (num == 1):
+        return 'This is not number 7'
+
+    elif (num == 2):    
+        return 'This is not number 7'
+
+    elif (num == 3):    
+        return 'This is not number 7'
+
+    elif (num == 4):    
+        return 'This is not number 7'
+
+    elif (num == 5):    
+        return 'This is not number 7'
+
+    elif (num == 6):    
+        return 'This is not number 7'
+
+    elif (num == 7):     # This is the number we are checking for
+        return 'This is number 7!'
+
+    elif(num == 8):
+        return 'This is not number 7'
