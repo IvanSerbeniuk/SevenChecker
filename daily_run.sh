@@ -8,6 +8,13 @@ TODAY=$(date +%Y-%m-%d)
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Запуск daily_runner.sh"
 
 
+until ping -c1 github.com &>/dev/null; do
+  echo "Waiting for network..."
+  sleep 5
+done
+
+
+
 if [ -f "$LAST_RUN_FILE" ] && grep -q "$TODAY" "$LAST_RUN_FILE"; then
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] Уже запускалось сегодня: $TODAY"
     exit 0
