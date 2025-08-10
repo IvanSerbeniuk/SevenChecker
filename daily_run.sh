@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #LOG_FILE="$HOME/daily_runner.log" 
-LAST_RUN_FILE="$HOME/VScodeProjects/SevenChecker/.last_daily_run"
+LAST_RUN_FILE="/home/ivan/VScodeProjects/SevenChecker/.last_daily_run"
 TODAY=$(date +%Y-%m-%d)
 
 
@@ -16,9 +16,9 @@ fi
 
 {
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] Выполняется append_if.sh"
-    bash ~/VScodeProjects/SevenChecker/append_if.sh
+    bash /home/ivan/VScodeProjects/SevenChecker/append_if.sh
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] Выполняется auto_commit_push.sh"
-    bash ~/VScodeProjects/SevenChecker/auto_commit_push.sh
+    bash /home/ivan/VScodeProjects/SevenChecker/auto_commit_push.sh
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] Успешно завершено"
 } 
 

@@ -88,3 +88,21 @@ def isitnumberseven(num):
 
     elif(num == 30):
         return 'This is not number 7'
+
+    elif(num == 31):
+        return 'This is not number 7'
+
+    elif(num == 32):
+        return 'This is not number 7'
+
+    elif(num == 33):
+        return 'This is not number 7'
+
+    elif(num == 34):
+        return 'This is not number 7'
+
+    elif(num == 35):
+        return 'This is not number 7'
+
+    elif(num == 36):
+        return 'This is not number 7'
