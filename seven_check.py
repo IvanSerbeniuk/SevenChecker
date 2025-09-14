@@ -220,3 +220,6 @@ def isitnumberseven(num):
 
     elif(num == 74):
         return 'This is not number 7'
+
+    elif(num == 75):
+        return 'This is not number 7'
