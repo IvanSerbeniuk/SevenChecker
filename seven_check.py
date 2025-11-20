@@ -403,3 +403,6 @@ def isitnumberseven(num):
 
     elif(num == 135):
         return 'This is not number 7'
+
+    elif(num == 136):
+        return 'This is not number 7'
