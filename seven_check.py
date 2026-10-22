@@ -1285,3 +1285,6 @@ def isitnumberseven(num):
 
     elif(num == 429):
         return 'This is not number 7'
+
+    elif(num == 430):
+        return 'This is not number 7'
